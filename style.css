@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 .section-container {
-  padding: 0px 100px;
+  padding: 0px 120px;
 }
 section {
   padding: 60px 0px;
@@ -21,7 +21,7 @@ input {
 }
 /*-----banner css start----- */
 #banner {
-  background: linear-gradient(#000000b3, #00000082), url(images/banner2.jpg);
+  background: linear-gradient(#000000b3, #00000082), url(images/homepage.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -47,11 +47,12 @@ input {
 .btn a,
 .submit {
   padding: 15px 30px;
-  background-color: #ff5959;
+  background: linear-gradient(45deg, #e54444, #ff9595);
   border-radius: 5px;
   color: #fff;
   text-transform: capitalize;
   font-size: 16px;
+  cursor: pointer;
 }
 /*-----banner css end----- */
 
@@ -64,14 +65,15 @@ input {
   padding-bottom: 80px;
 }
 .section-title h3 {
-  font-size: 30px;
+  font-size: 35px;
   text-transform: capitalize;
   color: #121212;
   padding-bottom: 10px;
 }
 .section-title p {
   color: #707070;
-  font-size: 17px;
+  font-size: 16px;
+  padding: 0px 41px;
 }
 .main-donate {
   width: 60%;
@@ -90,11 +92,13 @@ input {
   background-color: #fafafa;
   margin: 0 12px;
   border-radius: 3px;
+  box-shadow: 0px 0px 8px 5px #dddddd66;
 }
 .active a {
   border: 1px solid #ff5959;
   color: #ff5959;
   background-color: #ffeeee;
+  box-shadow: 0px 0px 8px 5px #ffeeee;
 }
 .other-amount input[type="text"] {
   border-bottom: 1px solid #ddd;
@@ -102,6 +106,7 @@ input {
   width: 100%;
   padding-bottom: 15px;
   margin-bottom: 30px;
+  font-size: 14px;
 }
 .other-amount input {
   display: block;
@@ -109,3 +114,148 @@ input {
   margin: auto;
 }
 /* ------donate-today css end----- */
+
+/* donate-plan css start */
+.main-donate-plan {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-item {
+  width: 25%;
+  background-color: #4f9da63b;
+  padding: 30px;
+  color: #121212;
+  border-radius: 12px;
+  box-shadow: 10px 16px 20px -2px #0000006b;
+}
+.plan-item h3 {
+  padding: 20px 0px;
+}
+.plan-item p {
+  line-height: 22px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.plan2 {
+  background-color: #ff59592b;
+}
+.plan3 {
+  background-color: #fff4d6;
+}
+/* donate plan css end */
+
+/* contribute section start */
+.main-contribute {
+  display: flex;
+  justify-content: space-between;
+  color: #121212;
+}
+.contribute-content,
+.contribute-img {
+  width: 50%;
+  margin: auto;
+  padding-right: 70px;
+}
+.contribute-content h2 {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+.contribute-content p {
+  font-size: 15px;
+  padding: 15px 50px 30px 0;
+}
+.contribute2 {
+  margin-top: 100px;
+}
+/* contribute section end */
+
+/* updates section start */
+.get-updates {
+  width: 750px;
+  background-color: #fff4d6;
+  margin: auto;
+  text-align: center;
+  padding: 80px 0px;
+}
+.subscribe input[type="email"] {
+  border: 1px solid #e94e5e73;
+  padding: 13px 25px;
+  width: 380px;
+  border-radius: 30px;
+  color: #7c7676;
+  box-shadow: 0px 0px 5px 1px #e94e4e73;
+  font-size: 15px;
+}
+.subscribe {
+  position: relative;
+}
+.subscribe input[type="submit"] {
+  background: linear-gradient(45deg, #e54444, #ff9595);
+  padding: 14px 35px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: absolute;
+  right: 160px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+/* updates section end */
+
+/* footer css start */
+footer {
+  background-color: #0b0d17;
+  padding: 60px 0px;
+  text-align: center;
+}
+.footer-content h3 {
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.footer-content span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+}
+/* footer css end */
+
+/* team-member css start */
+.all-member {
+  display: flex;
+  justify-content: space-between;
+}
+.single-member {
+  width: 17%;
+  text-align: center;
+}
+.single-member h3 {
+  padding-top: 20px;
+  color: #121212;
+  text-transform: capitalize;
+}
+.member-img,
+.others {
+  width: 100%;
+  height: 185px;
+}
+.member-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.others {
+  background: linear-gradient(#00000073, #00000054), url(images/member2.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 185px;
+  color: #fff;
+  display: inline-block;
+}
+/* team member css end */
