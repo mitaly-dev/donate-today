@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.section-container {
+  padding: 0px 100px;
+}
+section {
+  padding: 60px 0px;
+}
+input {
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
+}
+/*-----banner css start----- */
+#banner {
+  background: linear-gradient(#000000b3, #00000082), url(images/banner2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+}
+.main-banner {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  width: 650px;
+}
+.main-banner h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 66px;
+}
+.main-banner p {
+  font-size: 17px;
+  padding: 0 10px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+.btn a,
+.submit {
+  padding: 15px 30px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+/*-----banner css end----- */
+
+/*-----donate-today css start----- */
+
+.section-title {
+  margin: auto;
+  text-align: center;
+  width: 550px;
+  padding-bottom: 80px;
+}
+.section-title h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #121212;
+  padding-bottom: 10px;
+}
+.section-title p {
+  color: #707070;
+  font-size: 17px;
+}
+.main-donate {
+  width: 60%;
+  margin: auto;
+}
+.donate-amount {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+.amount-item a {
+  color: #707070;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 30px;
+  background-color: #fafafa;
+  margin: 0 12px;
+  border-radius: 3px;
+}
+.active a {
+  border: 1px solid #ff5959;
+  color: #ff5959;
+  background-color: #ffeeee;
+}
+.other-amount input[type="text"] {
+  border-bottom: 1px solid #ddd;
+  background-color: transparent;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.other-amount input {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+/* ------donate-today css end----- */
