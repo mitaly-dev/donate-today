@@ -62,7 +62,7 @@ input {
   margin: auto;
   text-align: center;
   width: 550px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 .section-title h3 {
   font-size: 35px;
@@ -82,19 +82,24 @@ input {
 .donate-amount {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
-.amount-item a {
+.amount-item {
+  width: 17%;
+  background-color: #fafafa;
+  height: 104px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px 5px #dddddd66;
+  text-align: center;
+}
+.amount-item span {
   color: #707070;
   font-size: 19px;
   font-weight: 600;
-  padding: 30px;
-  background-color: #fafafa;
+  line-height: 104px;
   margin: 0 12px;
-  border-radius: 3px;
-  box-shadow: 0px 0px 8px 5px #dddddd66;
 }
-.active a {
+.active {
   border: 1px solid #ff5959;
   color: #ff5959;
   background-color: #ffeeee;
@@ -115,7 +120,7 @@ input {
 }
 /* ------donate-today css end----- */
 
-/* donate-plan css start */
+/* -----donate-plan css start------ */
 .main-donate-plan {
   display: flex;
   justify-content: space-between;
@@ -142,9 +147,9 @@ input {
 .plan3 {
   background-color: #fff4d6;
 }
-/* donate plan css end */
+/*----- donate plan css end -----*/
 
-/* contribute section start */
+/* -----contribute section start -----*/
 .main-contribute {
   display: flex;
   justify-content: space-between;
@@ -167,9 +172,9 @@ input {
 .contribute2 {
   margin-top: 100px;
 }
-/* contribute section end */
+/* -----contribute section end ------*/
 
-/* updates section start */
+/*---- updates section start -----*/
 .get-updates {
   width: 750px;
   background-color: #fff4d6;
@@ -200,12 +205,12 @@ input {
   cursor: pointer;
   font-size: 15px;
 }
-/* updates section end */
+/* -----updates section end----- */
 
-/* footer css start */
+/* -----footer css start-----*/
 footer {
   background-color: #0b0d17;
-  padding: 60px 0px;
+  padding: 50px 0px;
   text-align: center;
 }
 .footer-content h3 {
@@ -220,9 +225,9 @@ footer {
   font-size: 15px;
   font-weight: 200;
 }
-/* footer css end */
+/* -----footer css end -----*/
 
-/* team-member css start */
+/* -----team-member css start -----*/
 .all-member {
   display: flex;
   justify-content: space-between;
@@ -258,4 +263,4 @@ footer {
   color: #fff;
   display: inline-block;
 }
-/* team member css end */
+/* -----team-member css end -----*/
