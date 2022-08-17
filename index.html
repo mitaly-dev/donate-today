@@ -43,27 +43,29 @@
         </div>
         <div class="main-donate">
           <div class="donate-amount">
-            <div class="amount-item">
-              <span>100tk</span>
-            </div>
-            <div class="amount-item active">
-              <span>200tk</span>
-            </div>
-            <div class="amount-item">
-              <span>500tk</span>
-            </div>
-            <div class="amount-item">
-              <span>1000tk</span>
-            </div>
-            <div class="amount-item">
-              <span>5000tk</span>
-            </div>
+            <button id="amount-first"><span id="tk-first">100</span>tk</button>
+            <button id="amount-second">
+              <span id="tk-second">200</span>tk
+            </button>
+            <button id="amount-third"><span id="tk-third">500</span>tk</button>
+            <button id="amount-fourth">
+              <span id="tk-fourth">1000</span>tk
+            </button>
+            <button id="amount-fifth"><span id="tk-fifth">5000</span>tk</button>
           </div>
           <div class="other-amount">
-            <form action="">
-              <input type="text" placeholder="Other Amount (Taka)" />
-              <input class="submit" type="submit" value="donate now" />
-            </form>
+            <input
+              id="amount-field"
+              type="text"
+              placeholder="Other Amount (Taka)"
+            />
+            <input
+              id="donate-submit"
+              class="submit"
+              type="submit"
+              value="donate now"
+            />
+            <p id="submit-msg"></p>
           </div>
         </div>
       </div>
@@ -240,5 +242,6 @@
       </div>
     </footer>
     <!-- footer section end -->
+    <script src="./js/script.js"></script>
   </body>
 </html>

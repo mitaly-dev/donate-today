@@ -84,26 +84,33 @@ input {
   justify-content: space-between;
   padding-bottom: 50px;
 }
-.amount-item {
-  width: 17%;
-  background-color: #fafafa;
+button {
   height: 104px;
   border-radius: 3px;
   box-shadow: 0px 0px 8px 5px #dddddd66;
-  text-align: center;
-}
-.amount-item span {
+  padding: 0px 30px;
+  background-color: #fafafa;
   color: #707070;
   font-size: 19px;
   font-weight: 600;
   line-height: 104px;
-  margin: 0 12px;
+  border: none;
+  outline: none;
+  text-align: center;
 }
 .active {
-  border: 1px solid #ff5959;
+  border: 1px solid #ff5959 !important;
   color: #ff5959;
-  background-color: #ffeeee;
+  background-color: #ffeeee !important;
   box-shadow: 0px 0px 8px 5px #ffeeee;
+}
+#submit-msg {
+  text-align: right;
+  padding: 5px 20px;
+  border-radius: 8px;
+  width: 190px;
+  float: right;
+  margin-top: -40px;
 }
 .other-amount input[type="text"] {
   border-bottom: 1px solid #ddd;
@@ -111,7 +118,7 @@ input {
   width: 100%;
   padding-bottom: 15px;
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 17px;
 }
 .other-amount input {
   display: block;
